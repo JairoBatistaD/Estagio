@@ -7,7 +7,7 @@ public class Funcionario extends Pessoa {
 	public Funcionario() {
 		this.salarioInicial(salarioInicial);
 		this.calculo(salarioInicial);
-		System.out.print("Nome"+this.nome+"RG "+this.RG+" Salario Inical"+this.getSalarioInicial()+" Salario Final"+this.getSalarioFinal());
+		System.out.print("Nome  "+this.nome+"RG "+this.RG+" Salario Inical  "+this.getSalarioInicial()+" Salario Final  "+this.getSalarioFinal());
 	}
 	
 	public void salarioInicial(float v) {
